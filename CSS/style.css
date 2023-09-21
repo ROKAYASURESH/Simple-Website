@@ -146,3 +146,23 @@
 .thumbnail img{
     border-radius: 20px;
 }
+.footer{
+    background:rgba(202, 26, 26, 0.7) url('../img/download (2).jfif');
+    background-size: cover;
+    /* background-blend-mode:screen ; */
+    background-blend-mode:hard-light;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding:50px 40px;
+}
+.paragrph{
+    width: 60vw;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.list a{
+    font-size: 20px;
+}
