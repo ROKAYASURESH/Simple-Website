@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+/* Side scroll color change start */
+::-webkit-scrollbar{
+    width: 6px;
+  
+}
+
+::-webkit-scrollbar-track{
+    background:#1d2842;
+}
+
+::-webkit-scrollbar-thumb{
+    background:palevioletred;
+} 
+:root{
+    --main-color:#ad95d8;
+    --text-color:rgb(15, 16, 17);
+    --bg-color:white;
+    --bg-font:5rem;
+    --h2-font:2.25rem;
+    --p-font:0.9rem;
+}
+*::selection{
+    background: var(--main-color);
+    color: #fff;
+}
+
+body{
+    color:var(--text-color) ;
+    background-color: var(--bg-color);
+}
+
+/* second-section */
+.second-section{
+    margin:20px 10px 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contant{
+    padding:0 40px;
+   text-align: justify;
+}
+.feature{
+    padding: 20px 0;
+    font-size: 25px;
+    color: #ad95d8;
+}
+.heading{
+    font-size: var(--h2-font);
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.pr {
+    color: #ad95d8;;
+    line-height: 30px;
+    font-weight: 600;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.see-work{
+    display: flex;
+    align-items: center;
+}
+.see-work a p{
+    padding: 0 20px;
+    font-weight: 600px;
+    font-size: x-larger;
+}
+.image img{
+    width: 700px;
+    box-shadow: 0 0 20px rgb(122, 119, 119);
+    height: auto;
+}
