@@ -135,3 +135,90 @@ body{
     position: relative;
     z-index: 1;
 }
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    align-items: center;
+}
+.fourth-section .contant .ct1{
+    width: 600px;
+    background-color: #1d2842;
+}
+.fourth-section .prog{
+    background-color: rgb(245, 239, 239);
+    box-shadow: 0 0 10px 10px rgb(231, 210, 210) ;
+    width: 6000px;
+    height: 500px;
+}
+.progr{
+    margin: 50px;
+}
+.progr p{
+    color:#ad95d8;
+   padding-bottom:08px ;
+   font-size: 20px;
+}
+.heading span{
+    color: aqua;
+
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://preview.colorlib.com/theme/sierra/img/footer-bg.jpg.webp');
+    padding: 100px 60px;
+  }
+  .log{
+    width: 100%;
+    padding: 30px;
+  }
+  .log p{
+        line-height: 30px;
+        margin-top: 30px;
+        /* font-weight: bold; */
+        color: white;
+  }
+  .f-image{
+    width: 100%;
+    
+  }
+  .f-image img{
+    margin: 3px;
+  }
+  .f-image h2{
+    color: #fff;
+    margin-bottom:40px ;
+  }
+  .f-contact{
+    width: 100%;
+  }
+.last{
+background-color: #000;
+display: flex;
+align-items: center;
+padding: 20px 50px;
+justify-content: space-between;
+}
+.last .l2{
+color: wheat;
+}
+.last .l i{
+font-size: 30px;
+border-radius: 50%;
+margin: 0px 20px;
+background-color: #541dbb;
+color: white;
+}
+.last .l i:hover{
+background-color: #f0eafd;
+color: #541dbb;
+}
+  /* progress */
+
+.navbar ul li a{
+    text-decoration: none;
+}
