@@ -81,3 +81,57 @@ body{
     box-shadow: 0 0 20px rgb(122, 119, 119);
     height: auto;
 }
+/* third-section */
+.third-section{
+    display: flex;
+    justify-content: center;
+    margin:50px 80px;
+    align-items: center;
+
+}
+.third-section .heading{
+    font-size: 15px;
+    font-weight: bold;
+}
+.contant1{
+    margin:40px;
+    height: 500px;
+    width: 300px;
+    padding:0 30px;
+    padding-top: 60px;
+}
+
+
+.contant1:hover{
+    box-shadow: 0px 0 1px rgb(199, 89, 89);
+    border-radius: 50px;
+ 
+}
+.third-section .pr{
+    font-size: 14px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    /* visibility: hidden; */
+}
+.contant1:hover .profile{
+    visibility:hidden;
+}
+.profile img{
+    border-radius: 50%;
+}
+.profile p{
+    margin: 0 30px;
+    color: #ad95d8;
+}
+
+.profile p span{
+    font-weight: bold;
+    color: black;
+    line-height: 30px;
+}
+.bg{
+    position: relative;
+    z-index: 1;
+}
